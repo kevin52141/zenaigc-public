@@ -1,0 +1,15 @@
+{
+  "name": "zenapi-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./mj": "./src/mj/index.ts",
+    "./nb": "./src/nb/index.ts",
+    "./image2": "./src/image2/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
